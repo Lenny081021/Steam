@@ -12,4 +12,14 @@
 | ComfyUI-Tooling | Implementiert, lokal ungetestet | Cloud hat keinen Zugriff auf `127.0.0.1:8188` |
 | Chaos Vehicles, Traffic, Steam | Noch offen | Benötigt Assets/SDK bzw. weitere Implementierung |
 
+## Phase 2 Ergänzung
+
+| Bereich | Status | Hinweis |
+|---|---|---|
+| 2×2-km-Sunset-State-Generator | Implementiert, nicht in UE getestet | Engine-Proxies für fünf Distrikte und verbundenes Arterialnetz |
+| Gebäude-Innenraumschale | Implementiert, nicht in UE getestet | Starter-Apartment mit begehbarer Shell; keine finalen Türen/Möbel |
+| Traffic-Agent | Implementiert, nicht in UE getestet | Replizierte Waypoint-Fahrt mit Hindernisstop; keine Ampel-/Spurwechsel-KI |
+| Immobilienkauf | Implementiert, nicht in UE getestet | Serverautorisierter Kaufactor, Save-Persistenz noch offen |
+| Asset-Import-Prüfung | Implementiert, Python-syntaktisch geprüft | Dateivalidierung und Chaos-Fahrzeugmanifest |
+
 Die hier genannte Prüfung behauptet keine Framerate oder Unreal-Build-Ergebnisse. JSON und Python wurden in der verfügbaren Umgebung validiert; UnrealBuildTool war nicht installiert.

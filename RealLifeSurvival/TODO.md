@@ -7,3 +7,4 @@
 5. Drei serverautorisative Quests implementieren und Spielstände auf Gebäude, Fahrzeuge, Weltzustand und Quests erweitern.
 6. Chaos-Vehicle-Pawn als erstes fahrbares Fahrzeug erstellen, dann Farming, Tiere/NavMesh und dynamisches Wetter ergänzen.
 7. LAN-Listen-Server testen; erst anschließend mit gültiger Steam-App-ID/Steamworks-SDK das OnlineSubsystem Steam konfigurieren.
+8. Proxies der Phase 2 im lokalen Editor durch World Partition, Landscape/Water, PCG und lizenzierte Nanite-Assets ersetzen; Verkehrsagenten um Lane-Graph, Ampeln und Chaos-Fahrzeuge erweitern.

@@ -44,6 +44,10 @@ Noch offen sind unter anderem: vollständige UMG-Menü-/Inventar-Drag-and-Drop-A
 
 Die nur lokal ausführbaren Windows-Werkzeuge stehen unter `Scripts/ComfyUI/`. Anleitung: [Scripts/ComfyUI/README.md](Scripts/ComfyUI/README.md). Sie prüfen ComfyUI und GPU, erzeugen die Ordnerstruktur unter `I:\RealLifeSurvivalAI` und senden ausschließlich bereits im lokalen ComfyUI getestete API-Workflows ab.
 
+## Phase 2: Stadt- und Asset-Erweiterung
+
+Zusätzliche Editor-Erzeugung und RTX-3070-Profile: [Documentation/PHASE2_SETUP.md](Documentation/PHASE2_SETUP.md). Die Erweiterung erzeugt keine vermeintlich fertigen AAA-Assets: Straßen, Gebäude, Wasser, Vegetation und Verkehr sind reproduzierbare, funktionale Engine-Proxies, die anschließend kontrolliert durch lokale Unreal-/ComfyUI-Assets ersetzt werden.
+
 ## Prüfung
 
 In der bereitgestellten Umgebung war keine Unreal-Engine-Installation bzw. kein `UnrealBuildTool` auffindbar. Deshalb konnte hier kein Editor- oder Windows-Build ehrlich ausgeführt werden. Nach der obigen Installation ist der erste verbindliche Prüfpunkt ein `Development Editor | Win64`-Build.
