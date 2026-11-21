@@ -1,0 +1,9 @@
+{
+  "seed": 81022,
+  "test_extent_meters": [2000, 2000],
+  "planned_extent_km": [8, 8],
+  "districts": ["SunsetCity", "PalmBeach", "GreenValley", "RockyMountains", "IndustrialHarbor"],
+  "arterials": [{"axis":"x","coordinates":[-600,0,600]}, {"axis":"y","coordinates":[-600,0,600]}],
+  "traffic_routes": 1,
+  "validation_rules": ["arterials connected", "building clearance >= 20m", "deterministic seed"]
+}

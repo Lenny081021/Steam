@@ -1,0 +1,8 @@
+{
+  "name": "Sunset City Starter District",
+  "seed": 81021,
+  "extent_meters": [500, 500],
+  "roads": ["Main_Street_EastWest", "Main_Street_NorthSouth"],
+  "landmarks": ["Supermarket", "GasStation", "CarDealer", "Workshop", "Sunset_Park"],
+  "validation": {"roads_connected": true, "building_road_clearance_meters": 12}
+}

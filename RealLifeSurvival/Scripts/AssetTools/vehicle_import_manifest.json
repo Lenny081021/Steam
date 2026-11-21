@@ -1,0 +1,6 @@
+{
+  "asset": "RLS_CityCar",
+  "required": ["chassis.fbx", "wheel_front_left.fbx", "wheel_front_right.fbx", "wheel_rear_left.fbx", "wheel_rear_right.fbx"],
+  "unreal_import": {"unit":"centimeters", "forward_axis":"X", "up_axis":"Z", "generate_collision": false, "generate_lods": true},
+  "chaos_vehicle_checks": ["skeletal chassis", "four separately rotating wheels", "wheel bone pivots", "collision bodies", "UVs", "material slots"]
+}
